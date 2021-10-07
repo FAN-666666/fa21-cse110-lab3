@@ -1,1 +1,1 @@
-https://fan-666666.github.io/Lab2/
+https://github.com/FAN-666666/fa21-cse110-lab3
