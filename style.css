@@ -87,7 +87,7 @@ ul.names{
     display: grid;
     grid-column:1;
     grid-row: auto;
-    row-gap:10px;
+    row-gap:2%;
 }
 
 #aud{
