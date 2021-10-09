@@ -1,0 +1,112 @@
+/* my custom css stylesheet */
+
+*{
+    text-align: left;
+}
+
+@media (max-width: 10000px){
+    body{
+        background-color: rgba(14, 167, 238, 0.205);
+    }
+}
+
+.part{
+    margin: 30px,30px;
+    margin-bottom: 30px;
+    margin-left:30px;
+    padding:20px,20px,20px,20px;
+    display: block;
+    position:relative;
+}
+
+.agenda{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: auto
+}
+
+h3{
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+    position: static;
+}
+
+h1 + h5{
+    max-width: max-content;
+    min-width: none;
+    position:sticky;
+
+}
+
+li,ul{
+    position: relative;
+    text-decoration-style: double;
+}
+
+p{
+    position: sticky;
+    
+}
+
+li > p{
+    position: relative;
+}
+
+img[src="diagram.jpg"]{
+    border-style: solid;
+    border-color: darkorange;
+}
+
+
+section video{
+    border-style:solid;
+    border-color:rgb(173, 125, 62);
+    border-radius: 5%;
+    border-width: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+
+section.attend{
+    margin: 30px,30px;
+    margin-bottom: 30px;
+    margin-left:30px;
+    padding:20px,20px,20px,20px;
+    position:block;
+}
+
+ul.names{
+    display: grid;
+    grid-column:1;
+    grid-row: auto;
+    row-gap:10px;
+}
+
+#aud{
+    border-color: darkorange;
+    margin: auto;
+    padding: 10px,10px;
+}
+
+audio ~ h3{
+    text-decoration-style: solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+video:hover{
+    position: relative;
+    border-color: deeppink;
+}
+
+video:active{
+    border-color: rgb(20, 255, 79);
+
+}

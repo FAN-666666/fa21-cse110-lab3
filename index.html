@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Meeting Notes</title>
+        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
@@ -13,16 +14,18 @@
         </style>
     </head>
     <body>
-        <section>
-            <h1 style="color: rgba(236, 69, 27, 0.87);font-family: 'Ephesis', sans-serif;font-size:xx-large;">
+        <section class="part">
+            <h1 style="color: rgba(236, 69, 27, 0.87);
+                font-family: 'Ephesis', sans-serif;
+                font-size:xx-large;">
                 Brainstorming Meeting</h1>
-            <h5>topic：come up with ideas for the project</h5>
+            <h5 id = "sub">topic：come up with ideas for the project</h5>
             <h5>October 3, 2021</h5>
         </section>
 
-        <section>
+        <section class="attend">
             <h3>Attendence List</h3>
-            <ul>
+            <ul class="names">
                 <li>Alex
                 <li>Bobby
                 <li>Carl
@@ -30,9 +33,9 @@
             </ul>
         </section>
 
-        <section>
+        <section class="part">
             <h3>Meeting Agenda</h3>
-            <ol>
+            <ol class="agenda">
                 <li>Recent Report
                 <li>Brainstorming
                 <li>Task Assignment
@@ -40,7 +43,7 @@
             </ol>
         </section>
 
-        <section>
+        <section class="part">
             <h3>things that were unfinished business from last meeting</h3>
             <ol>
                 <li>Make a Calendar
@@ -52,7 +55,7 @@
             </ol>
         </section>
 
-        <section>
+        <section class="part">
             <h3>things that are new business that need to be talked about</h3>
             <ol>
                 <li>Discuss about what software we are going to develop
@@ -64,18 +67,21 @@
             </ol>
         </section>
 
-        <section>
+        <section class="part">
             <h3>Questions/Concerns</h3>
-            <p>The specific job of each group member?</p>
-            <ul>
-                <li>Alex: design and conduct a survey
-                <li>Bobby: look for users for our app's test version
-                <li>Carl: front-end
-                <li>Derrick: back-end
-            </ul>
+            <ol>
+                <li>The specific job of each group member?
+                    <ul>
+                        <li>Alex: design and conduct a survey
+                        <li>Bobby: look for users for our app's test version
+                        <li>Carl: front-end
+                        <li>Derrick: back-end
+                    </ul>
+            </ol>
+            
         </section>
         
-        <section>
+        <section class="part">
             <h3>Diagram</h3>
             <img
             src="diagram.jpg"
@@ -84,7 +90,7 @@
             />
         </section>
 
-        <section>
+        <section class="part">
             <h3>Video Recording</h3>
             <video width="700" height="700" controls>
                 <source src="video.mp4" type="video/mp4">
@@ -92,9 +98,9 @@
             </video>
         </section>
 
-        <section>
+        <section class="part">
             <h3>Audio Recording</h3>
-            <audio controls>
+            <audio id = "aud" controls>
                 <source src="audio.m4a" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
